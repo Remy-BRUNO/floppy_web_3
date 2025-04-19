@@ -1,0 +1,21 @@
+{
+  "short_name": "Rémy",
+  "name": "Rémy — Développeur Web Freelance Next.js",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1e1e2f",
+  "display": "standalone",
+  "theme_color": "#00ffff",
+  "description": "Site de Rémy, développeur web freelance spécialisé dans Next.js"
+}

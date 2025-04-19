@@ -1,0 +1,26 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* margin-left: 20px; */
+  padding: 1rem;
+  text-align: end;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.5s ease, border 0.5s ease;
+  margin-top: auto; /* Pousse le footer vers le bas */
+  /* width: 100vw; */
+}
+
+[data-theme="dark"] .footer {
+  background: rgba(18, 18, 18, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    margin-left: 0;
+  }
+}

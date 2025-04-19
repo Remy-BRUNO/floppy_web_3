@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0;
+  background: linear-gradient(135deg, #121212 0%, #1e1e1e 100%);
+  color: #f0f0f0;
+  transition: background 0.5s ease, color 0.5s ease;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+[data-theme="light"] {
+  background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
+  color: #3a3a3a;
+}
+a {
+  color: #00ffff;
+}
+[data-theme="light"] a {
+  color: #333;
+}
+span {
+  background: #00ffff;
+}
+[data-theme="light"] span {
+  background: #333;
+}
+
+.content {
+  margin-left: 250px;
+  animation: fadeIn 1s ease forwards;
+  height: 100%;
+}
+
+/* Navigation - mobile responsive */
+@media (max-width: 768px) {
+  .toggle-darkmode {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  .content {
+    height: auto;
+    margin-left: 0;
+    padding-top: 2rem;
+  }
+}

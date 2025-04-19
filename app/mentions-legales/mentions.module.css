@@ -1,0 +1,8 @@
+.container {
+  padding: 2rem;
+  padding-bottom: 3rem;
+  animation: fadeIn 1s ease forwards;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

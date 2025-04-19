@@ -1,0 +1,63 @@
+.local {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  animation: fadeIn 1s ease forwards;
+  padding-bottom: 4rem;
+}
+
+.local h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #4b3b88;
+}
+
+.local h2 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #5c4d99;
+}
+
+.local ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.local ul li {
+  margin-bottom: 0.5rem;
+}
+.illustration {
+  display: flex;
+
+  justify-content: center;
+}
+
+.cta_button {
+  display: inline-block;
+  background: rgba(59, 130, 246, 0.85);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta_button:hover {
+  background: rgba(59, 130, 246, 1);
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

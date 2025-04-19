@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://floppy-web.fr/sitemap.xml

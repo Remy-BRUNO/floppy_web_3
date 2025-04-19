@@ -1,0 +1,35 @@
+{
+  "name": "floppy-web",
+  "version": "0.1.0",
+  "description": "Site vitrine professionnel de Rémy, développeur freelance spécialisé en Next.js.",
+  "author": "Rémy BRUNO <bruno.remy.web@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "next": "15.3.0",
+    "next-sitemap": "^4.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.0"
+  },
+  "keywords": [
+    "Next.js",
+    "Freelance",
+    "Développeur Web",
+    "Site Vitrine",
+    "React",
+    "Portfolio",
+    "Glassmorphism",
+    "Dark Mode"
+  ]
+}
