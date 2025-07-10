@@ -35,6 +35,8 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <Head>
         <link rel="manifest" href="/manifest.json" />
+      </Head>
+      <body>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17334509888"
           strategy="afterInteractive"
@@ -47,8 +49,6 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-17334509888');
           `}
         </Script>
-      </Head>
-      <body>
         <Navbar />
         <DarkModeToggle />
         <BurgerMenu />
