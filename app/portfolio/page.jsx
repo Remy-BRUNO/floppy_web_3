@@ -38,9 +38,7 @@ export default function Portfolio() {
                   alt={`Aperçu du site ${name}`}
                   className={styles.projectImage}
                 />
-                <h3>
-                  Projet {id} — {name}
-                </h3>
+                <h3>Projet — {name}</h3>
                 <p>{text}</p>
                 <a
                   href={url}
