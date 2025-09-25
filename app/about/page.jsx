@@ -10,12 +10,12 @@ export default function About() {
           Je suis Rémy, développeur freelance basé sur Chambéry (73).
           <br />
           Passionné de web et grand fan d’univers geek (mangas, BD, jeux
-          vidéo...), je conçois des sites Next.js performants avec une touche
-          créative.
+          vidéo...), je conçois des sites performants avec une touche créative.
         </p>
         <p className={styles.text}>
-          🚀 <strong>Mon objectif </strong>: propulser votre présence en ligne
-          avec des sites rapides, élégants et simples à gérer.
+          🚀 <strong>Mon objectif </strong>: Je transforme les sites web
+          d’entreprises en outils de croissance : plus de visibilité, une
+          meilleure image de marque, et surtout plus de conversions.
         </p>
         <div className={styles.profilPicture}>
           <Image src={"/images/profil.webp"} alt="Photo de Rémy" fill />
