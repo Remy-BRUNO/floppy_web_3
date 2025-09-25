@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import DarkModeToggle from "@/components/DarkModeToggle"
 import BurgerMenu from "@/components/BurgerMenu"
 import Head from "next/head"
+import Script from "next/script"
 
 export const metadata = {
   title: "Rémy | Développeur Next.js Freelance",
@@ -36,6 +37,18 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17334509888"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17334509888');
+          `}
+        </Script>
         <Navbar />
         <DarkModeToggle />
         <BurgerMenu />
